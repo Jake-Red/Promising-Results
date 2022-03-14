@@ -28,7 +28,7 @@
 //    console.log(err)
 //})
 
-async function results(){
+async function doMath(){
     try {
         let num1 = await slowMath.add(6, 2);
         console.log(num1);
@@ -54,4 +54,4 @@ async function results(){
     };
     }
 
-    results()
+    doMath()
